@@ -88,8 +88,23 @@ application-local.properties
 # Kiro AI Assistant
 .kiro/
 
+# Logs
+logs/
+*.log.*
+
 # Temporary files
 *.tmp
-*.bak
+*.temp
 *.swp
-*~.nib
+*.swo
+*~
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+.env.*.local
